@@ -303,7 +303,7 @@
             // 
             // pictureBoxAnhNhoTrai
             // 
-            this.pictureBoxAnhNhoTrai.Image = global::WeddingManagementApplication.Properties.Resources.merry;
+            this.pictureBoxAnhNhoTrai.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhNhoTrai.Image")));
             this.pictureBoxAnhNhoTrai.Location = new System.Drawing.Point(284, 444);
             this.pictureBoxAnhNhoTrai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxAnhNhoTrai.Name = "pictureBoxAnhNhoTrai";

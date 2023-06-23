@@ -60,9 +60,9 @@ namespace WeddingManagementApplication
             this.tb_total = new WeddingManagementApplication.CustomeBorderTextbox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataDishes = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataService = new System.Windows.Forms.DataGridView();
             this.btn_exit = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -74,9 +74,9 @@ namespace WeddingManagementApplication
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDishes)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataService)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.SuspendLayout();
@@ -396,7 +396,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Controls.Add(this.dataDishes);
             this.groupBox3.Location = new System.Drawing.Point(12, 239);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
@@ -406,20 +406,20 @@ namespace WeddingManagementApplication
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Dishes";
             // 
-            // dataGridView1
+            // dataDishes
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(5, 21);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(331, 160);
-            this.dataGridView1.TabIndex = 0;
+            this.dataDishes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataDishes.Location = new System.Drawing.Point(5, 21);
+            this.dataDishes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataDishes.Name = "dataDishes";
+            this.dataDishes.RowHeadersWidth = 51;
+            this.dataDishes.RowTemplate.Height = 24;
+            this.dataDishes.Size = new System.Drawing.Size(331, 160);
+            this.dataDishes.TabIndex = 0;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.dataGridView2);
+            this.groupBox4.Controls.Add(this.dataService);
             this.groupBox4.Location = new System.Drawing.Point(363, 239);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
@@ -431,14 +431,14 @@ namespace WeddingManagementApplication
             // 
             // dataGridView2
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(5, 21);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(331, 160);
-            this.dataGridView2.TabIndex = 0;
+            this.dataService.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataService.Location = new System.Drawing.Point(5, 21);
+            this.dataService.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataService.Name = "dataService";
+            this.dataService.RowHeadersWidth = 51;
+            this.dataService.RowTemplate.Height = 24;
+            this.dataService.Size = new System.Drawing.Size(331, 160);
+            this.dataService.TabIndex = 0;
             // 
             // btn_exit
             // 
@@ -567,14 +567,15 @@ namespace WeddingManagementApplication
             this.MaximumSize = new System.Drawing.Size(2000, 441);
             this.Name = "FormBill";
             this.Text = "Bill";
+            this.Load += new System.EventHandler(this.FormBill_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDishes)).EndInit();
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataService)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
@@ -613,9 +614,9 @@ namespace WeddingManagementApplication
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataDishes;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataService;
         private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Button btn_save;
         private CustomeBorderTextbox tb_total;

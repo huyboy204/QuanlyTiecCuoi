@@ -17,6 +17,7 @@ namespace WeddingManagementApplication
         {               
             InitializeComponent();
             load_comboBox_staff();
+            //load_gridView_Dishes();
             tb_lobby_price.ReadOnly = true;
             tb_moneyLeft.ReadOnly = true;
             tb_penalty.ReadOnly = false;
@@ -58,6 +59,8 @@ namespace WeddingManagementApplication
         public FormBill(string id) : this()
         {
             this.id = id;
+            load_gridView_Dishes(id);
+            load_gridView_Service(id);
             using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
             {
                 sql.Open();
@@ -250,5 +253,257 @@ namespace WeddingManagementApplication
         {
 
         }
+
+        public static string currentWeddingId = "";
+        DataTable tableDishes = new DataTable();
+        DataTable tableService = new DataTable();
+        SqlDataAdapter adapter = new SqlDataAdapter();
+        void load_gridView_Dishes(String x)
+        {
+            //load_data_Dishes();
+            DataColumn column;
+            DataRow row;
+
+            // Create first column and add to the DataTable.
+            /*column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "idWedding";
+            column.AutoIncrement = false;
+            column.Caption = "id Wedding";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableDishes.Columns.Add(column);
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "Representative";
+            column.AutoIncrement = false;
+            column.Caption = "Representative";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableDishes.Columns.Add(column);*/
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "dishesName";
+            column.AutoIncrement = false;
+            column.Caption = "Dishes name";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableDishes.Columns.Add(column);
+
+            // Create second column.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "AmountOfDishes";
+            column.AutoIncrement = false;
+            column.Caption = "Quantity";
+            column.ReadOnly = false;
+            column.Unique = false;
+            tableDishes.Columns.Add(column);
+
+            // create third column
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "TotalDishesPrice";
+            column.AutoIncrement = false;
+            column.Caption = "Total Dishes Price";
+            column.ReadOnly = false;
+            column.Unique = false;
+            tableDishes.Columns.Add(column);
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "Note";
+            column.AutoIncrement = false;
+            column.Caption = "Note";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableDishes.Columns.Add(column);
+
+            dataDishes.DataSource = tableDishes;
+            foreach (DataGridViewColumn col in dataDishes.Columns)
+            {
+                col.HeaderText = tableDishes.Columns[col.DataPropertyName].Caption;
+            }
+                
+
+                // Thực hiện truy vấn SQL để lấy dữ liệu từ cơ sở dữ liệu
+                string query = "SELECT dishesName, AmountOfDishes,TotalDishesPrice, TBD.Note FROM WEDDING_INFOR WD, MENU MN, TABLE_DETAIL TBD WHERE WD.idWedding = TBD.idWedding AND TBD.idDishes = MN.idDishes AND WD.idWedding = @idBill";
+                using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
+                {
+                    sql.Open();
+
+                    // Tạo một đối tượng SqlCommand và thiết lập các tham số
+                    SqlCommand command = new SqlCommand(query, sql);
+                    command.Parameters.AddWithValue("@idBill", x);
+
+                    // Tạo một đối tượng SqlDataAdapter để lấy dữ liệu từ SqlCommand
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                    // Tạo một đối tượng DataTable để chứa dữ liệu từ SqlDataAdapter
+                    DataTable dataTable = new DataTable();
+
+                    // Đổ dữ liệu từ SqlDataAdapter vào DataTable
+                    adapter.Fill(dataTable);
+
+                    // Gán DataTable cho DataSource của DataGridView
+                    dataDishes.DataSource = dataTable;
+
+                    // Đóng kết nối
+                    sql.Close();
+                }
+
+            //dataDishes.Columns["idWedding"].Visible = false;
+            //dataDishes.Columns["Representative"].Visible = false;
+
+            /*using (SqlCommand cmd = new SqlCommand("SELECT WD.idWedding, Representative, dishesName, AmountOfDishes,TotalDishesPrice, TBD.Note FROM WEDDING_INFOR WD, MENU MN, TABLE_DETAIL TBD WHERE WD.idWedding = TBD.idWedding AND TBD.idDishes = MN.idDishes AND WD.idWedding = @idBill", sql))
+            {
+                cmd.Parameters.AddWithValue("@idBill", id);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        cbb_lobby.SelectedIndex = WeddingClient.listLobbies.FindIndex(x => x.idLobby == reader["IdLobby"].ToString());
+                        cbb_shift.SelectedIndex = WeddingClient.listShifts.FindIndex(x => x.idShift == reader["IdShift"].ToString());
+                        tb_representative.Text = reader.GetString(2);
+                        tb_phone.Text = reader.GetString(3);
+                        date_booking.Value = reader.GetDateTime(4);
+                        date_wedding.Value = reader.GetDateTime(5);
+                        tb_groom.Text = reader.GetString(6);
+                        tb_bride.Text = reader.GetString(7);
+                        tb_table.Text = reader.GetInt32(8).ToString();
+                        tb_contigency.Text = reader.GetInt32(9).ToString();
+                        tb_deposit.Text = reader.GetInt64(11).ToString();
+
+                        DataRow row = table1.NewRow();
+                        row.ItemArray = new object[] { reader["LobbyName"].ToString(), reader["ShiftName"].ToString(), tb_representative.Text, tb_phone.Text, date_booking.Value.ToString(), date_wedding.Value.ToString(), tb_groom.Text, tb_bride.Text, tb_table.Text, tb_contigency.Text, 0, tb_deposit.Text, id };
+                        table1.Rows.Add(row);
+                    }
+                }
+
+            }
+        }*/
+
+        }
+
+        void load_gridView_Service(String x)
+        {
+            DataColumn column;
+            DataRow row;
+
+            // Create first column and add to the DataTable.
+            /*column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "idWedding";
+            column.AutoIncrement = false;
+            column.Caption = "id Wedding";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableService.Columns.Add(column);
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "Representative";
+            column.AutoIncrement = false;
+            column.Caption = "Representative";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableService.Columns.Add(column);*/
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "ServiceName";
+            column.AutoIncrement = false;
+            column.Caption = "Service name";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableService.Columns.Add(column);
+
+            // Create second column.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "AmountOfService";
+            column.AutoIncrement = false;
+            column.Caption = "Quantity";
+            column.ReadOnly = false;
+            column.Unique = false;
+            tableService.Columns.Add(column);
+
+            // create third column
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "TotalServicePrice";
+            column.AutoIncrement = false;
+            column.Caption = "Total Dishes Price";
+            column.ReadOnly = false;
+            column.Unique = false;
+            tableService.Columns.Add(column);
+
+            // Create first column and add to the DataTable.
+            column = new DataColumn();
+            column.DataType = System.Type.GetType("System.String");
+            column.ColumnName = "Note";
+            column.AutoIncrement = false;
+            column.Caption = "Note";
+            column.ReadOnly = true;
+            column.Unique = false;
+            // Add the column to the DataColumnCollection.
+            tableService.Columns.Add(column);
+
+            dataService.DataSource = tableService;
+            foreach (DataGridViewColumn col in dataService.Columns)
+            {
+                col.HeaderText = tableService.Columns[col.DataPropertyName].Caption;
+            }
+
+
+            // Thực hiện truy vấn SQL để lấy dữ liệu từ cơ sở dữ liệu
+            string query = "SELECT  ServiceName, AmountOfService,TotalServicePrice, SVD.Note FROM WEDDING_INFOR WD, SERVICE SV, SERVICE_DETAIL SVD WHERE WD.IdWedding = SVD.IdWedding AND SVD.IdService = SV.IdService AND WD.IdWedding = @idBill";
+            using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
+            {
+                sql.Open();
+
+                // Tạo một đối tượng SqlCommand và thiết lập các tham số
+                SqlCommand command = new SqlCommand(query, sql);
+                command.Parameters.AddWithValue("@idBill", x);
+
+                // Tạo một đối tượng SqlDataAdapter để lấy dữ liệu từ SqlCommand
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                // Tạo một đối tượng DataTable để chứa dữ liệu từ SqlDataAdapter
+                DataTable dataTable2 = new DataTable();
+
+                // Đổ dữ liệu từ SqlDataAdapter vào DataTable
+                adapter.Fill(dataTable2);
+
+                // Gán DataTable cho DataSource của DataGridView
+                dataService.DataSource = dataTable2;
+
+                // Đóng kết nối
+                sql.Close();
+            }
+
+            //dataService.Columns["id Wedding"].Visible = false;
+            //dataService.Columns["Representative"].Visible = false;
+        }
+
+            private void FormBill_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

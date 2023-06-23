@@ -124,7 +124,7 @@
             this.checkboxRemPW.Location = new System.Drawing.Point(127, 386);
             this.checkboxRemPW.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkboxRemPW.Name = "checkboxRemPW";
-            this.checkboxRemPW.Size = new System.Drawing.Size(133, 23);
+            this.checkboxRemPW.Size = new System.Drawing.Size(126, 21);
             this.checkboxRemPW.TabIndex = 5;
             this.checkboxRemPW.Text = "Remember me";
             this.checkboxRemPW.UseVisualStyleBackColor = true;
@@ -159,6 +159,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(401, 601);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FormLogin_MouseDown);
