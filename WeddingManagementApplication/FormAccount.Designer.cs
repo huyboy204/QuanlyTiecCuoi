@@ -59,7 +59,7 @@ namespace WeddingManagementApplication
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(755, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 17);
+            this.label6.Size = new System.Drawing.Size(15, 16);
             this.label6.TabIndex = 13;
             this.label6.Text = "X";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -281,6 +281,7 @@ namespace WeddingManagementApplication
             this.MaximumSize = new System.Drawing.Size(1044, 554);
             this.Name = "FormAccount";
             this.Text = "FormAccount";
+            this.Load += new System.EventHandler(this.FormAccount_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gv_act)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

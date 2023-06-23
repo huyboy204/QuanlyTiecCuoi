@@ -21,12 +21,16 @@ namespace WeddingManagementApplication
         {
             this.Visible = false;
             FormLobbyType frm = new FormLobbyType();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
         private void btnLobby_Click(object sender, EventArgs e)
         {
             FormLobby frm = new FormLobby();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             this.Visible=false;
         }

@@ -21,6 +21,8 @@ namespace WeddingManagementApplication
         {
             this.Visible=false;
             FormShift frmS =new FormShift();
+            frmS.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frmS.StartPosition = FormStartPosition.CenterScreen;
             frmS.ShowDialog();
         }
 
@@ -33,6 +35,8 @@ namespace WeddingManagementApplication
                 return;
             }
             FormAccount a = new FormAccount();
+            a.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            a.StartPosition = FormStartPosition.CenterScreen;
             a.ShowDialog();
         }
 
@@ -40,6 +44,8 @@ namespace WeddingManagementApplication
         {
             this.Visible = false;
             searchWedding frmS = new searchWedding();
+            frmS.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frmS.StartPosition = FormStartPosition.CenterScreen;
             frmS.ShowDialog();
         }
 
@@ -47,12 +53,16 @@ namespace WeddingManagementApplication
         {
             this.Visible = false;
             FormBill frmS = new FormBill();
+            frmS.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frmS.StartPosition = FormStartPosition.CenterScreen;
             frmS.ShowDialog();
         }
 
         private void btnReport_Click(object sender, EventArgs e)
         {
             FormLobbyType frm = new FormLobbyType();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             this.Visible = false;
         }
@@ -60,6 +70,8 @@ namespace WeddingManagementApplication
         private void btnLobby_Click(object sender, EventArgs e)
         {
             FormLobby frm = new FormLobby();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             this.Visible = false;
         }
@@ -67,6 +79,8 @@ namespace WeddingManagementApplication
         private void btnLobbyType_Click(object sender, EventArgs e)
         {
             FormLobbyType frm = new FormLobbyType();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             this.Visible = false;
         }

@@ -249,11 +249,14 @@ namespace WeddingManagementApplication
                 {
                     // open form edit wedding informations
                     NhanTiec nt = new NhanTiec(id);
+                    nt.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+                    nt.StartPosition = FormStartPosition.CenterScreen;
                     nt.ShowDialog();
                 }
                 else if (dialogResult == DialogResult.Yes)
                 {
                     // open form pay for wedding
+                    this.Hide();
                     FormBill b = new FormBill(id);
                     b.ShowDialog();
                 }

@@ -21,12 +21,16 @@ namespace WeddingManagementApplication
         {
             this.Visible = false;
             ReportDay frm = new ReportDay();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
         private void btnMonth_Click(object sender, EventArgs e)
         {
             RevenueReport frm = new RevenueReport();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
             this.Visible=false;
         }

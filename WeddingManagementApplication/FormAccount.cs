@@ -207,5 +207,10 @@ namespace WeddingManagementApplication
         {
             this.Close();
         }
+
+        private void FormAccount_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

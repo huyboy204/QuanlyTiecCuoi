@@ -40,6 +40,8 @@ namespace WeddingManagementApplication
             this.lobbyDropDown1.Visible = false;
             this.panelNavigate.Top = this.btnMenu.Top;
             FormDishes frm = new FormDishes();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
@@ -48,6 +50,8 @@ namespace WeddingManagementApplication
             this.searchDropDown1.Visible = false;
             this.panelNavigate.Top = this.btnService.Top;
             FormServices frm = new FormServices();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
@@ -87,6 +91,8 @@ namespace WeddingManagementApplication
             this.searchDropDown1.Visible = false;
             this.panelNavigate.Top = this.btnWedding.Top;
             FormShift frm = new FormShift();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
@@ -125,6 +131,8 @@ namespace WeddingManagementApplication
             this.searchDropDown1.Visible = false;
             this.lobbyDropDown1.Visible = false;
             FormLogin frm = new FormLogin();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.Show();
             this.Close();
         }
@@ -148,6 +156,8 @@ namespace WeddingManagementApplication
             this.searchDropDown1.Visible = false;
             this.panelNavigate.Top = this.btnWedding.Top;
             NhanTiec frm = new NhanTiec();
+            frm.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
         }
 
