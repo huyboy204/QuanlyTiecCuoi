@@ -790,7 +790,7 @@ namespace WeddingManagementApplication
                     cmd.Parameters.AddWithValue("@representative", tb_representative.Text);
                     if (cmd.ExecuteNonQuery() > 0)
                     {
-                        using(SqlCommand cmd2 = new SqlCommand("INSERT INTO BILL (IdBill, InvoiceDate, TablePriceTotal, ServicePriceTotal, Total, PaymentDate, MoneyLeft) VALUES (@idBill, @InvoiceDate, @TablePricetotal, @ServicePriceTotal, @Total, @PaymentDate, @MoneyLeft) ", sql))
+                        using(SqlCommand cmd2 = new SqlCommand("INSERT INTO BILL (IdBill, InvoiceDate, TablePriceTotal, ServicePriceTotal, Total, PaymentDate, MoneyLeft, Staff) VALUES (@idBill, @InvoiceDate, @TablePricetotal, @ServicePriceTotal, @Total, @PaymentDate, @MoneyLeft, NULL) ", sql))
                         {
                             cmd2.Parameters.AddWithValue("@idBill", newId);
                             cmd2.Parameters.AddWithValue("@InvoiceDate", date_wedding.Value);

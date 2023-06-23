@@ -52,10 +52,10 @@ namespace WeddingManagementApplication
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tb_representative = new WeddingManagementApplication.CustomeBorderTextbox();
             this.label3 = new System.Windows.Forms.Label();
-            this.cbb_staff = new System.Windows.Forms.ComboBox();
             this.tb_phone = new WeddingManagementApplication.CustomeBorderTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.cbb_staff = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tb_total = new WeddingManagementApplication.CustomeBorderTextbox();
             this.label4 = new System.Windows.Forms.Label();
@@ -246,6 +246,7 @@ namespace WeddingManagementApplication
             this.tb_penalty.ReadOnly = true;
             this.tb_penalty.Size = new System.Drawing.Size(72, 22);
             this.tb_penalty.TabIndex = 23;
+            this.tb_penalty.TextChanged += new System.EventHandler(this.tb_penalty_TextChanged);
             // 
             // rBtn_yes
             // 
@@ -310,16 +311,6 @@ namespace WeddingManagementApplication
             this.label3.TabIndex = 50;
             this.label3.Text = "Representative";
             // 
-            // cbb_staff
-            // 
-            this.cbb_staff.FormattingEnabled = true;
-            this.cbb_staff.Location = new System.Drawing.Point(107, 34);
-            this.cbb_staff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cbb_staff.Name = "cbb_staff";
-            this.cbb_staff.Size = new System.Drawing.Size(223, 24);
-            this.cbb_staff.TabIndex = 49;
-            this.cbb_staff.Visible = true;
-            // 
             // tb_phone
             // 
             this.tb_phone.Location = new System.Drawing.Point(164, 118);
@@ -350,7 +341,15 @@ namespace WeddingManagementApplication
             this.label1.Size = new System.Drawing.Size(85, 23);
             this.label1.TabIndex = 46;
             this.label1.Text = "Made by:";
-            this.label1.Visible = true;
+            // 
+            // cbb_staff
+            // 
+            this.cbb_staff.FormattingEnabled = true;
+            this.cbb_staff.Location = new System.Drawing.Point(107, 34);
+            this.cbb_staff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbb_staff.Name = "cbb_staff";
+            this.cbb_staff.Size = new System.Drawing.Size(223, 24);
+            this.cbb_staff.TabIndex = 49;
             // 
             // groupBox2
             // 

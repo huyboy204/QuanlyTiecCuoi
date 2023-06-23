@@ -16,6 +16,7 @@ namespace WeddingManagementApplication
         public FormBill()
         {               
             InitializeComponent();
+            load_comboBox_staff();
             tb_lobby_price.ReadOnly = true;
             tb_moneyLeft.ReadOnly = true;
             tb_penalty.ReadOnly = false;
@@ -166,6 +167,8 @@ namespace WeddingManagementApplication
         private void btn_save_Click(object sender, EventArgs e)
         {
             // save all bill data to database
+            int indexStaff = cbb_staff.SelectedIndex;
+            StaffsData staff = WeddingClient.listStaffs[indexStaff];
             using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
             {
                 sql.Open();
@@ -173,11 +176,12 @@ namespace WeddingManagementApplication
                 {
                     if (rBtn_yes.Checked && int.TryParse(tb_penalty.Text, out int penalty))
                     {
-                        using (SqlCommand cmd = new SqlCommand("UPDATE BILL SET Total = @Total, PaymentDate = @PaymentDate, MoneyLeft = 0 WHERE IdBill = @IdBill", sql))
+                        using (SqlCommand cmd = new SqlCommand("UPDATE BILL SET Total = @Total, PaymentDate = @PaymentDate, MoneyLeft = 0, Staff=@Staff WHERE IdBill = @IdBill", sql))
                         {
                             cmd.Parameters.AddWithValue("@Total", tb_total.Text);
                             cmd.Parameters.AddWithValue("@PaymentDate", paymentDTP.Value);
                             cmd.Parameters.AddWithValue("@IdBill", id);
+                            cmd.Parameters.AddWithValue("@Staff", staff.idStaff);
                             cmd.ExecuteNonQuery();
                             MessageBox.Show("Saved!");
                         }
@@ -208,6 +212,43 @@ namespace WeddingManagementApplication
         private void label6_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        void load_comboBox_staff()
+        {
+            using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
+            {
+                sql.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT Id, Username, Pw, Priority, Name, Identification  FROM ACCOUNT where Priority = 0", sql))
+                {
+                    using (var dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            WeddingClient.listShifts = new List<ShiftData>();
+                            var dt = new DataTable();
+                            dt.Load(dr);
+                            cbb_staff.DataSource = dt;
+                            cbb_staff.DisplayMember = "Name";
+                            foreach (DataRow row in dt.Rows)
+                            {
+                                WeddingClient.listStaffs.Add(new StaffsData(
+                                    Convert.ToInt32(row["Id"]),
+                                    row["Username"].ToString(),
+                                    row["Pw"].ToString(),
+                                    Convert.ToInt32(row["Priority"]),
+                                    row["Name"].ToString(),
+                                    row["Identification"].ToString()));
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void tb_penalty_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

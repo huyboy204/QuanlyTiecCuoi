@@ -70,7 +70,7 @@ namespace WeddingManagementApplication
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(347, 231);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(0, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
             this.linkLabel1.TabIndex = 4;
             // 
             // groupBox1
@@ -259,7 +259,7 @@ namespace WeddingManagementApplication
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(992, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 17);
+            this.label6.Size = new System.Drawing.Size(15, 16);
             this.label6.TabIndex = 11;
             this.label6.Text = "X";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -275,7 +275,7 @@ namespace WeddingManagementApplication
             this.header_lobby.ForeColor = System.Drawing.Color.Crimson;
             this.header_lobby.Location = new System.Drawing.Point(438, 28);
             this.header_lobby.Name = "header_lobby";
-            this.header_lobby.Size = new System.Drawing.Size(139, 32);
+            this.header_lobby.Size = new System.Drawing.Size(138, 32);
             this.header_lobby.TabIndex = 12;
             this.header_lobby.Text = "LOBBY LIST";
             this.header_lobby.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -284,7 +284,7 @@ namespace WeddingManagementApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(204)))), ((int)(((byte)(176)))));
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1021, 515);
             this.Controls.Add(this.header_lobby);
             this.Controls.Add(this.label6);

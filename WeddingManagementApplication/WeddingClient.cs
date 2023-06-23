@@ -17,7 +17,8 @@ namespace WeddingManagementApplication
         internal static List<ShiftData> listShifts = new List<ShiftData>();
         internal static List<LobbyTypeData> listLobbyTypes = new List<LobbyTypeData>();
         internal static List<LobbyData> listLobbies = new List<LobbyData>();
-        
+        internal static List<StaffsData> listStaffs = new List<StaffsData>();
+
         internal static Random rand = new Random();
 
     //    internal static string sqlConnectionString = ConfigurationManager.AppSettings.Get("An");

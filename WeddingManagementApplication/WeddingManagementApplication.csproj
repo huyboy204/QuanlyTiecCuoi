@@ -308,6 +308,7 @@
       <DependentUpon>Shift.cs</DependentUpon>
     </Compile>
     <Compile Include="ShiftData.cs" />
+    <Compile Include="StaffsData.cs" />
     <Compile Include="WeddingClient.cs" />
   </ItemGroup>
   <ItemGroup>
