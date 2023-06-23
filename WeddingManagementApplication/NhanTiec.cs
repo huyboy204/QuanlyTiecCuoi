@@ -11,7 +11,7 @@ namespace WeddingManagementApplication
         public static string currentWeddingId = "";
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table1 = new DataTable();
-
+        int priceOf1Table = 0;
 
         public NhanTiec()
         {
@@ -481,11 +481,64 @@ namespace WeddingManagementApplication
                 MessageBox.Show("Please select a wedding!", "LACK", MessageBoxButtons.OK);
             }
         }
+
+
+        private int get_MinPriceOfLobby()
+        {
+            int MinPrice = 0;
+            int index = cbb_lobby.SelectedIndex;
+            string tmp = "";
+            // get DishesData from listDishes at index
+            LobbyData lobby = WeddingClient.listLobbies[index];
+            using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
+            {
+                sql.Open();
+
+                // check if (idWedding, idDishes) primary key is exist in table TABLE_DETAIL
+                using (SqlCommand check = new SqlCommand("SELECT IdLobbyType FROM LOBBY WHERE  IdLobby = @IdLobby", sql))
+                {
+
+                    check.Parameters.AddWithValue("@IdLobby", lobby.idLobby);
+                    using (SqlDataReader reader = check.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            tmp = reader["IdLobbyType"].ToString();
+                        }
+                        else
+                        {
+                            tmp = "";
+                        }
+                    }
+                }
+                using (SqlCommand check = new SqlCommand("SELECT MinTablePrice FROM LOBBY_TYPE WHERE  IdLobbyType = @IdLobbyType", sql))
+                {
+
+                    check.Parameters.AddWithValue("@IdLobbyType", tmp);
+                    using (SqlDataReader reader = check.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            MinPrice = Convert.ToInt32(reader["MinTablePrice"]);
+                        }
+                        else
+                        {
+                            MinPrice = 0;
+                        }
+                    }    
+                }
+            }
+            return MinPrice;
+        }
+
         
         private void btn_add_menu_Click(object sender, EventArgs e)
         {
             if (NhanTiec.currentWeddingId != null && NhanTiec.currentWeddingId.Length == 21)
             {
+                int numberOfTable = Convert.ToInt32(tb_table.Text)+ Convert.ToInt32(tb_contigency.Text);
+                int MinPrice = get_MinPriceOfLobby();
+                
                 // get current index of comboBox dishes
                 int index = cbb_dishes.SelectedIndex;
                 // get DishesData from listDishes at index
@@ -524,13 +577,15 @@ namespace WeddingManagementApplication
                                 cmd.Parameters.AddWithValue("@AmountOfDishes", Convert.ToInt32(tb_dishes_price.Text));
                                 cmd.Parameters.AddWithValue("@TotalDishesPrice", dishes.DishesPrice * Convert.ToInt32(tb_dishes_price.Text));
                                 cmd.Parameters.AddWithValue("@Note", "");
+                                priceOf1Table = priceOf1Table + Convert.ToInt32(dishes.DishesPrice) * Convert.ToInt32(tb_dishes_price.Text);
                                 if (cmd.ExecuteNonQuery() > 0)
                                 {
                                     newDishesPrice = dishes.DishesPrice * Convert.ToInt32(tb_dishes_price.Text);
-                                    using (SqlCommand cmd2 = new SqlCommand("UPDATE BILL SET TablePriceTotal = TablePriceTotal + @tableChanged, Total = Total + @tableChanged WHERE IdBill = @idWedding", sql))
+                                    using (SqlCommand cmd2 = new SqlCommand("UPDATE BILL SET TablePriceTotal = TablePriceTotal + @tableChanged*@Quantity, Total = Total + @tableChanged WHERE IdBill = @idWedding", sql))
                                     {
                                         cmd2.Parameters.AddWithValue("@idWedding", NhanTiec.currentWeddingId);
                                         cmd2.Parameters.AddWithValue("@tableChanged", newDishesPrice);
+                                        cmd2.Parameters.AddWithValue("@Quantity", numberOfTable);
                                         if (cmd2.ExecuteNonQuery() > 0)
                                         {
                                             MessageBox.Show("Add successfully!", "SUCCESS", MessageBoxButtons.OK);
@@ -589,6 +644,13 @@ namespace WeddingManagementApplication
                 else
                 {
                     MessageBox.Show("Please type amount of dish!", "LACK", MessageBoxButtons.OK);
+                }
+
+                if(priceOf1Table< MinPrice)
+                {
+                    MessageBox.Show("Not enough minimum table price!", "LACK", MessageBoxButtons.OK);
+                    Console.WriteLine("minprice" + MinPrice);
+                    Console.WriteLine("priceOf1Table" + priceOf1Table);
                 }
             }
             else
