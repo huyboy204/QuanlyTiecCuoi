@@ -74,7 +74,7 @@ namespace WeddingManagementApplication
                         }
                     }
                 }
-                using (SqlCommand sqlcomm = new SqlCommand("SELECT W.Representative, W.PhoneNumber, W.TablePrice, B.TablePriceTotal, B.ServicePriceTotal, B.Total, B.InvoiceDate, B.PaymentDate, B.MoneyLeft FROM BILL B, WEDDING_INFOR W WHERE IdWedding = IdBill AND IdBill = @id", sql))
+                using (SqlCommand sqlcomm = new SqlCommand("SELECT W.Representative, W.PhoneNumber, W.Deposit, B.TablePriceTotal, B.ServicePriceTotal, B.Total, B.InvoiceDate, B.PaymentDate, B.MoneyLeft FROM BILL B, WEDDING_INFOR W WHERE IdWedding = IdBill AND IdBill = @id", sql))
                 {
                     sqlcomm.Parameters.AddWithValue("@id", id);
                     using (SqlDataReader reader = sqlcomm.ExecuteReader())
@@ -156,13 +156,21 @@ namespace WeddingManagementApplication
 
         private void RBtn_yes_Click(object sender, EventArgs e)
         {
-            tb_moneyLeft.Text = penaltyTotal.ToString();
+            int x = Convert.ToInt32(tb_lobby_price);
+            int y = Convert.ToInt32(penaltyTotal);
+            int z = y - x;
+            tb_moneyLeft.Text = z.ToString();
         }
 
         private void RBtn_no_Click(object sender, EventArgs e)
         {
             if (currentMoneyLeft > 0)
-                tb_moneyLeft.Text = baseTotal.ToString();
+            {
+                int x = Convert.ToInt32(tb_lobby_price);
+                int y = Convert.ToInt32(baseTotal);
+                int z = y - x;
+                tb_moneyLeft.Text = z.ToString();
+            }
             else
                 tb_moneyLeft.Text = "0";
         }
@@ -222,7 +230,7 @@ namespace WeddingManagementApplication
             using (SqlConnection sql = new SqlConnection(WeddingClient.sqlConnectionString))
             {
                 sql.Open();
-                using (SqlCommand cmd = new SqlCommand("SELECT Id, Username, Pw, Priority, Name, Identification  FROM ACCOUNT where Priority = 0", sql))
+                using (SqlCommand cmd = new SqlCommand("SELECT Id, Username, Pw, Priority, Name, Identification  FROM ACCOUNT", sql))
                 {
                     using (var dr = cmd.ExecuteReader())
                     {

@@ -99,6 +99,7 @@
             this.bill.Text = "Bill";
             this.bill.UseVisualStyleBackColor = false;
             this.bill.Click += new System.EventHandler(this.bill_Click);
+            this.bill.Visible=false;
             // 
             // SearchDropDown
             // 

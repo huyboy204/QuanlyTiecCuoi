@@ -84,6 +84,7 @@ namespace WeddingManagementApplication
             // label_tittle_bill
             // 
             this.label_tittle_bill.AutoSize = true;
+            this.label_tittle_bill.BackColor = System.Drawing.Color.Transparent;
             this.label_tittle_bill.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_tittle_bill.ForeColor = System.Drawing.Color.Crimson;
             this.label_tittle_bill.Location = new System.Drawing.Point(445, 0);
@@ -105,6 +106,7 @@ namespace WeddingManagementApplication
             // label_invoice_date
             // 
             this.label_invoice_date.AutoSize = true;
+            this.label_invoice_date.BackColor = System.Drawing.Color.Transparent;
             this.label_invoice_date.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_invoice_date.ForeColor = System.Drawing.Color.Crimson;
             this.label_invoice_date.Location = new System.Drawing.Point(623, 39);
@@ -153,9 +155,9 @@ namespace WeddingManagementApplication
             this.label_total.ForeColor = System.Drawing.Color.Crimson;
             this.label_total.Location = new System.Drawing.Point(11, 113);
             this.label_total.Name = "label_total";
-            this.label_total.Size = new System.Drawing.Size(103, 23);
+            this.label_total.Size = new System.Drawing.Size(77, 23);
             this.label_total.TabIndex = 31;
-            this.label_total.Text = "Lobby rent:";
+            this.label_total.Text = "Deposit:";
             // 
             // label_table_total_price
             // 
@@ -171,6 +173,7 @@ namespace WeddingManagementApplication
             // label_rule_fl
             // 
             this.label_rule_fl.AutoSize = true;
+            this.label_rule_fl.BackColor = System.Drawing.Color.Transparent;
             this.label_rule_fl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_rule_fl.ForeColor = System.Drawing.Color.Crimson;
             this.label_rule_fl.Location = new System.Drawing.Point(763, 265);
@@ -182,6 +185,7 @@ namespace WeddingManagementApplication
             // label_penalty_rate
             // 
             this.label_penalty_rate.AutoSize = true;
+            this.label_penalty_rate.BackColor = System.Drawing.Color.Transparent;
             this.label_penalty_rate.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_penalty_rate.ForeColor = System.Drawing.Color.Crimson;
             this.label_penalty_rate.Location = new System.Drawing.Point(743, 230);
@@ -276,6 +280,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.tb_representative);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.tb_phone);
@@ -353,6 +358,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.tb_total);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.tb_serviceTotal);
@@ -396,6 +402,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.dataDishes);
             this.groupBox3.Location = new System.Drawing.Point(12, 239);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -419,6 +426,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.dataService);
             this.groupBox4.Location = new System.Drawing.Point(363, 239);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -429,7 +437,7 @@ namespace WeddingManagementApplication
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Service";
             // 
-            // dataGridView2
+            // dataService
             // 
             this.dataService.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataService.Location = new System.Drawing.Point(5, 21);
@@ -471,6 +479,7 @@ namespace WeddingManagementApplication
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Location = new System.Drawing.Point(791, 320);
@@ -507,6 +516,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
             this.groupBox5.Controls.Add(this.rBtn_yes);
             this.groupBox5.Controls.Add(this.rBtn_no);
             this.groupBox5.Location = new System.Drawing.Point(768, 292);
@@ -519,6 +529,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox6
             // 
+            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
             this.groupBox6.Controls.Add(this.pay_yes);
             this.groupBox6.Controls.Add(this.pay_no);
             this.groupBox6.Location = new System.Drawing.Point(768, 347);
@@ -542,9 +553,9 @@ namespace WeddingManagementApplication
             // 
             // FormBill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(204)))), ((int)(((byte)(176)))));
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(967, 441);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox6);

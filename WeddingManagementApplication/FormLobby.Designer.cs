@@ -75,6 +75,7 @@ namespace WeddingManagementApplication
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.panel3);
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
@@ -285,6 +286,7 @@ namespace WeddingManagementApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(1021, 515);
             this.Controls.Add(this.header_lobby);
             this.Controls.Add(this.label6);

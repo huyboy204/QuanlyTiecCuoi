@@ -55,7 +55,7 @@ namespace WeddingManagementApplication
                             tb_deposit.Text = reader.GetInt64(11).ToString();
                             
                             DataRow row = table1.NewRow();
-                            row.ItemArray = new object[] { reader["LobbyName"].ToString(), reader["ShiftName"].ToString(), tb_representative.Text, tb_phone.Text, date_booking.Value.ToString(), date_wedding.Value.ToString(), tb_groom.Text, tb_bride.Text, tb_table.Text, tb_contigency.Text, 0, tb_deposit.Text, id };
+                            row.ItemArray = new object[] { reader["LobbyName"].ToString(), reader["ShiftName"].ToString(), tb_representative.Text, tb_phone.Text, date_booking.Value.ToString(), date_wedding.Value.ToString(), tb_groom.Text, tb_bride.Text, tb_table.Text, tb_contigency.Text, reader["TablePrice"].ToString(), tb_deposit.Text, id };
                             table1.Rows.Add(row);
                         }
                     }
@@ -178,9 +178,9 @@ namespace WeddingManagementApplication
             // create eleventh column
             column = new DataColumn();
             column.DataType = System.Type.GetType("System.Int64");
-            column.ColumnName = "tablePrice";
+            column.ColumnName = "tablePriceMin";
             column.AutoIncrement = false;
-            column.Caption = "Table price";
+            column.Caption = "Table price Min";
             column.ReadOnly = false;
             column.Unique = false;
             table1.Columns.Add(column);
@@ -581,7 +581,7 @@ namespace WeddingManagementApplication
                                 if (cmd.ExecuteNonQuery() > 0)
                                 {
                                     newDishesPrice = dishes.DishesPrice * Convert.ToInt32(tb_dishes_price.Text);
-                                    using (SqlCommand cmd2 = new SqlCommand("UPDATE BILL SET TablePriceTotal = TablePriceTotal + @tableChanged*@Quantity, Total = Total + @tableChanged WHERE IdBill = @idWedding", sql))
+                                    using (SqlCommand cmd2 = new SqlCommand("UPDATE BILL SET TablePriceTotal = TablePriceTotal + @tableChanged*@Quantity, Total = Total + @tableChanged*@Quantity, MoneyLeft = MoneyLeft + @tableChanged*@Quantity WHERE IdBill = @idWedding", sql))
                                     {
                                         cmd2.Parameters.AddWithValue("@idWedding", NhanTiec.currentWeddingId);
                                         cmd2.Parameters.AddWithValue("@tableChanged", newDishesPrice);
@@ -811,6 +811,8 @@ namespace WeddingManagementApplication
             }
             LobbyData lobby = WeddingClient.listLobbies[indexLobby];
 
+            
+            
             if (!IsLobbyAvailable(lobby.idLobby, shift.idShift))
             {
                 MessageBox.Show("This lobby is not available at this shift!", "LACK", MessageBoxButtons.OK);
@@ -847,7 +849,7 @@ namespace WeddingManagementApplication
                     cmd.Parameters.AddWithValue("@BrideName", tb_bride.Text);
                     cmd.Parameters.AddWithValue("@AmountOfTable", Convert.ToInt32(tb_table.Text));
                     cmd.Parameters.AddWithValue("@AmountOfContingencyTable", Convert.ToInt32(tb_contigency.Text));
-                    cmd.Parameters.AddWithValue("@TablePrice", basePrice);
+                    cmd.Parameters.AddWithValue("@TablePrice", typePrice);
                     cmd.Parameters.AddWithValue("@Deposit", Convert.ToInt64(tb_deposit.Text));
                     cmd.Parameters.AddWithValue("@representative", tb_representative.Text);
                     if (cmd.ExecuteNonQuery() > 0)
@@ -858,13 +860,13 @@ namespace WeddingManagementApplication
                             cmd2.Parameters.AddWithValue("@InvoiceDate", date_wedding.Value);
                             cmd2.Parameters.AddWithValue("@TablePricetotal", 0);
                             cmd2.Parameters.AddWithValue("@ServicePriceTotal", 0);
-                            cmd2.Parameters.AddWithValue("@Total", basePrice);
+                            cmd2.Parameters.AddWithValue("@Total", 0);
                             cmd2.Parameters.AddWithValue("@PaymentDate", DBNull.Value);
-                            cmd2.Parameters.AddWithValue("@MoneyLeft", basePrice - Convert.ToInt64(tb_deposit.Text));
+                            cmd2.Parameters.AddWithValue("@MoneyLeft", 0 - Convert.ToInt64(tb_deposit.Text));
                             if (cmd2.ExecuteNonQuery() > 0)
                             {
                                 DataRow row = table1.NewRow();
-                                row.ItemArray = new object[] { lobby.LobbyName, shift.name, tb_representative.Text, tb_phone.Text, date_booking.Value.ToString(), date_wedding.Value.ToString(), tb_groom.Text, tb_bride.Text, tb_table.Text, tb_contigency.Text, basePrice, tb_deposit.Text, newId };
+                                row.ItemArray = new object[] { lobby.LobbyName, shift.name, tb_representative.Text, tb_phone.Text, date_booking.Value.ToString(), date_wedding.Value.ToString(), tb_groom.Text, tb_bride.Text, tb_table.Text, tb_contigency.Text, typePrice, tb_deposit.Text, newId };
                                 table1.Rows.Add(row);
                                 MessageBox.Show("Add wedding successfully!", "SUCCESS", MessageBoxButtons.OK);
                             }
@@ -887,6 +889,7 @@ namespace WeddingManagementApplication
                 {
                     cmd.Parameters.AddWithValue("@idLobby", idLobby);
                     cmd.Parameters.AddWithValue("@idShift", idShift);
+                    //cmd.Parameters.AddWithValue("@WeddingDate", WeddingDate);
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())

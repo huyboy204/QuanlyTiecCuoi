@@ -102,6 +102,7 @@ namespace WeddingManagementApplication
             this.label_tittle_wedding_in4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_tittle_wedding_in4.AutoSize = true;
+            this.label_tittle_wedding_in4.BackColor = System.Drawing.Color.Transparent;
             this.label_tittle_wedding_in4.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_tittle_wedding_in4.ForeColor = System.Drawing.Color.Crimson;
             this.label_tittle_wedding_in4.Location = new System.Drawing.Point(309, 15);
@@ -204,6 +205,7 @@ namespace WeddingManagementApplication
             // 
             this.wedding.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.wedding.BackColor = System.Drawing.Color.Transparent;
             this.wedding.Controls.Add(this.cbb_lobby);
             this.wedding.Controls.Add(this.label1);
             this.wedding.Controls.Add(this.cbb_shift);
@@ -362,6 +364,7 @@ namespace WeddingManagementApplication
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.date_booking);
             this.groupBox1.Controls.Add(this.label_weddingdate);
             this.groupBox1.Controls.Add(this.date_wedding);
@@ -418,7 +421,7 @@ namespace WeddingManagementApplication
             // groupBox_menu
             // 
             this.groupBox_menu.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.groupBox_menu.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.groupBox_menu.BackColor = System.Drawing.Color.Transparent;
             this.groupBox_menu.Controls.Add(this.btn_detail_dishes);
             this.groupBox_menu.Controls.Add(this.tb_dishes_price);
             this.groupBox_menu.Controls.Add(this.tb_price_dishes);
@@ -530,7 +533,7 @@ namespace WeddingManagementApplication
             // groupBox2
             // 
             this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.groupBox2.BackColor = System.Drawing.Color.Linen;
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.btn_detail_service);
             this.groupBox2.Controls.Add(this.tb_service_price);
             this.groupBox2.Controls.Add(this.tb_price_service);
@@ -670,6 +673,7 @@ namespace WeddingManagementApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(204)))), ((int)(((byte)(176)))));
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(1013, 562);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox2);

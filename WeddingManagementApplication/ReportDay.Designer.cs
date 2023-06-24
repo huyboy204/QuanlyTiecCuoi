@@ -41,7 +41,6 @@
             this.labelDay = new System.Windows.Forms.Label();
             this.dataRPD = new System.Windows.Forms.DataGridView();
             this.buttonAdd = new System.Windows.Forms.Button();
-            this.labelWDRestaurant = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_search_rpDay = new System.Windows.Forms.Button();
             this.tb_seacrh_rpDay = new System.Windows.Forms.TextBox();
@@ -53,6 +52,7 @@
             // labelRReport
             // 
             this.labelRReport.AutoSize = true;
+            this.labelRReport.BackColor = System.Drawing.Color.Transparent;
             this.labelRReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold);
             this.labelRReport.ForeColor = System.Drawing.Color.Firebrick;
             this.labelRReport.Location = new System.Drawing.Point(198, 53);
@@ -85,6 +85,7 @@
             // labelmonth
             // 
             this.labelmonth.AutoSize = true;
+            this.labelmonth.BackColor = System.Drawing.Color.Transparent;
             this.labelmonth.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelmonth.ForeColor = System.Drawing.Color.Crimson;
             this.labelmonth.Location = new System.Drawing.Point(314, 218);
@@ -112,6 +113,7 @@
             // labelAOW
             // 
             this.labelAOW.AutoSize = true;
+            this.labelAOW.BackColor = System.Drawing.Color.Transparent;
             this.labelAOW.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAOW.ForeColor = System.Drawing.Color.Crimson;
             this.labelAOW.Location = new System.Drawing.Point(407, 268);
@@ -123,6 +125,7 @@
             // labelYear
             // 
             this.labelYear.AutoSize = true;
+            this.labelYear.BackColor = System.Drawing.Color.Transparent;
             this.labelYear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelYear.ForeColor = System.Drawing.Color.Crimson;
             this.labelYear.Location = new System.Drawing.Point(552, 219);
@@ -185,6 +188,7 @@
             // labelDayRevenue
             // 
             this.labelDayRevenue.AutoSize = true;
+            this.labelDayRevenue.BackColor = System.Drawing.Color.Transparent;
             this.labelDayRevenue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelDayRevenue.ForeColor = System.Drawing.Color.Crimson;
             this.labelDayRevenue.Location = new System.Drawing.Point(28, 269);
@@ -196,6 +200,7 @@
             // labelDay
             // 
             this.labelDay.AutoSize = true;
+            this.labelDay.BackColor = System.Drawing.Color.Transparent;
             this.labelDay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelDay.ForeColor = System.Drawing.Color.Crimson;
             this.labelDay.Location = new System.Drawing.Point(129, 217);
@@ -229,18 +234,6 @@
             this.buttonAdd.Text = "ADD";
             this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // labelWDRestaurant
-            // 
-            this.labelWDRestaurant.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelWDRestaurant.AutoSize = true;
-            this.labelWDRestaurant.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic);
-            this.labelWDRestaurant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.labelWDRestaurant.Location = new System.Drawing.Point(514, 9);
-            this.labelWDRestaurant.Name = "labelWDRestaurant";
-            this.labelWDRestaurant.Size = new System.Drawing.Size(314, 29);
-            this.labelWDRestaurant.TabIndex = 1;
-            this.labelWDRestaurant.Text = "Wedding Restaurant HALTT";
             // 
             // label6
             // 
@@ -278,6 +271,7 @@
             // rBtn_amount
             // 
             this.rBtn_amount.AutoSize = true;
+            this.rBtn_amount.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_amount.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_amount.Location = new System.Drawing.Point(519, 165);
             this.rBtn_amount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -286,11 +280,12 @@
             this.rBtn_amount.TabIndex = 78;
             this.rBtn_amount.TabStop = true;
             this.rBtn_amount.Text = "Amount of wedding";
-            this.rBtn_amount.UseVisualStyleBackColor = true;
+            this.rBtn_amount.UseVisualStyleBackColor = false;
             // 
             // rBtn_day
             // 
             this.rBtn_day.AutoSize = true;
+            this.rBtn_day.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_day.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_day.Location = new System.Drawing.Point(453, 165);
             this.rBtn_day.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -299,7 +294,7 @@
             this.rBtn_day.TabIndex = 80;
             this.rBtn_day.TabStop = true;
             this.rBtn_day.Text = "Day";
-            this.rBtn_day.UseVisualStyleBackColor = true;
+            this.rBtn_day.UseVisualStyleBackColor = false;
             // 
             // ReportDay
             // 
@@ -307,6 +302,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(857, 577);
             this.Controls.Add(this.rBtn_day);
             this.Controls.Add(this.comboBoxMonth);
@@ -321,7 +317,6 @@
             this.Controls.Add(this.textBoxDayRevenue);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBoxDay);
-            this.Controls.Add(this.labelWDRestaurant);
             this.Controls.Add(this.labelDayRevenue);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.labelDay);
@@ -353,7 +348,6 @@
         private System.Windows.Forms.Label labelDay;
         private System.Windows.Forms.DataGridView dataRPD;
         private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.Label labelWDRestaurant;
         private System.Windows.Forms.ComboBox comboBoxMonth;
         private System.Windows.Forms.Label labelmonth;
         private System.Windows.Forms.Label label6;

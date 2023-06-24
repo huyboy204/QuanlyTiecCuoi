@@ -258,6 +258,8 @@ namespace WeddingManagementApplication
                     // open form pay for wedding
                     this.Hide();
                     FormBill b = new FormBill(id);
+                    b.Location = new System.Drawing.Point(Screen.FromControl(this).WorkingArea.Width / 4, Screen.FromControl(this).WorkingArea.Height / 4);
+                    b.StartPosition = FormStartPosition.CenterScreen;
                     b.ShowDialog();
                 }
                 else if (dialogResult == DialogResult.Cancel)

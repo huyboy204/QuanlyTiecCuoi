@@ -458,5 +458,17 @@
   <ItemGroup>
     <None Include="Resources\icons8-plus-501.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5XICE %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wedding Restaurant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

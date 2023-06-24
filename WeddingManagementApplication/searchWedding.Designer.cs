@@ -63,6 +63,7 @@ namespace WeddingManagementApplication
             // label_search
             // 
             this.label_search.AutoSize = true;
+            this.label_search.BackColor = System.Drawing.Color.Transparent;
             this.label_search.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_search.ForeColor = System.Drawing.Color.Crimson;
             this.label_search.Location = new System.Drawing.Point(127, 18);
@@ -91,6 +92,7 @@ namespace WeddingManagementApplication
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Location = new System.Drawing.Point(725, 18);
@@ -103,6 +105,7 @@ namespace WeddingManagementApplication
             // rBtn_name
             // 
             this.rBtn_name.AutoSize = true;
+            this.rBtn_name.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_name.Checked = true;
             this.rBtn_name.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_name.Location = new System.Drawing.Point(240, 112);
@@ -112,12 +115,13 @@ namespace WeddingManagementApplication
             this.rBtn_name.TabIndex = 20;
             this.rBtn_name.TabStop = true;
             this.rBtn_name.Text = "Groom name, bride name, representative";
-            this.rBtn_name.UseVisualStyleBackColor = true;
+            this.rBtn_name.UseVisualStyleBackColor = false;
             // 
             // rBtn_date
             // 
             this.rBtn_date.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rBtn_date.AutoSize = true;
+            this.rBtn_date.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_date.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_date.Location = new System.Drawing.Point(644, 112);
             this.rBtn_date.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -126,7 +130,7 @@ namespace WeddingManagementApplication
             this.rBtn_date.TabIndex = 21;
             this.rBtn_date.TabStop = true;
             this.rBtn_date.Text = "Wedding date";
-            this.rBtn_date.UseVisualStyleBackColor = true;
+            this.rBtn_date.UseVisualStyleBackColor = false;
             // 
             // tb_search_bill
             // 
@@ -152,7 +156,7 @@ namespace WeddingManagementApplication
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(1100, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 17);
+            this.label6.Size = new System.Drawing.Size(15, 16);
             this.label6.TabIndex = 73;
             this.label6.Text = "X";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -162,6 +166,7 @@ namespace WeddingManagementApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(204)))), ((int)(((byte)(176)))));
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(1129, 487);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.rBtn_date);

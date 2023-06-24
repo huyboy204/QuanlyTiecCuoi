@@ -63,6 +63,16 @@ namespace WeddingManagementApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5XICE__1_ {
+            get {
+                object obj = ResourceManager.GetObject("5XICE (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_plus_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-plus-50", resourceCulture);
@@ -76,6 +86,36 @@ namespace WeddingManagementApplication.Properties {
         internal static System.Drawing.Bitmap merry {
             get {
                 object obj = ResourceManager.GetObject("merry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thiết_kế_chưa_có_tên {
+            get {
+                object obj = ResourceManager.GetObject("Thiết kế chưa có tên", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thiết_kế_chưa_có_tên__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Thiết kế chưa có tên (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Wedding_Restaurant {
+            get {
+                object obj = ResourceManager.GetObject("Wedding Restaurant", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

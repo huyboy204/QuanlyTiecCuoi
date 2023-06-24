@@ -113,12 +113,23 @@ namespace WeddingManagementApplication
             }
         }
 
-        internal static long GetNewACCOUNTSId()
+        /*internal static int GetNewACCOUNTSId()
         {
-            Int64 randomid = 0;
+            Int32 randomid = 0;
             while (randomid <= 0 || check_existed_id(randomid))
             {
-                randomid = NextInt64(rand);
+                randomid = NextInt32(rand);
+            }
+            return randomid;
+        }*/
+
+        internal static long GetNewACCOUNTSId()
+        {
+            Random rand = new Random(); // Khởi tạo đối tượng Random
+            int randomid = 0;
+            while (randomid <= 0 || check_existed_id(randomid))
+            {
+                randomid = rand.Next(); // Sử dụng hàm Next() của đối tượng Random
             }
             return randomid;
         }

@@ -38,7 +38,6 @@ namespace WeddingManagementApplication
             this.labelMonth = new System.Windows.Forms.Label();
             this.dataRPMonth = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.labelWDRestaurant = new System.Windows.Forms.Label();
             this.img_close_service = new System.Windows.Forms.Label();
             this.rBtn_month = new System.Windows.Forms.RadioButton();
             this.rBtn_year = new System.Windows.Forms.RadioButton();
@@ -50,6 +49,7 @@ namespace WeddingManagementApplication
             // labelRReport
             // 
             this.labelRReport.AutoSize = true;
+            this.labelRReport.BackColor = System.Drawing.Color.Transparent;
             this.labelRReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold);
             this.labelRReport.ForeColor = System.Drawing.Color.Firebrick;
             this.labelRReport.Location = new System.Drawing.Point(176, 59);
@@ -70,6 +70,7 @@ namespace WeddingManagementApplication
             // labelYear
             // 
             this.labelYear.AutoSize = true;
+            this.labelYear.BackColor = System.Drawing.Color.Transparent;
             this.labelYear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelYear.ForeColor = System.Drawing.Color.Crimson;
             this.labelYear.Location = new System.Drawing.Point(272, 230);
@@ -116,6 +117,7 @@ namespace WeddingManagementApplication
             // labelRTotal
             // 
             this.labelRTotal.AutoSize = true;
+            this.labelRTotal.BackColor = System.Drawing.Color.Transparent;
             this.labelRTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelRTotal.ForeColor = System.Drawing.Color.Crimson;
             this.labelRTotal.Location = new System.Drawing.Point(497, 228);
@@ -127,6 +129,7 @@ namespace WeddingManagementApplication
             // labelMonth
             // 
             this.labelMonth.AutoSize = true;
+            this.labelMonth.BackColor = System.Drawing.Color.Transparent;
             this.labelMonth.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.labelMonth.ForeColor = System.Drawing.Color.Crimson;
             this.labelMonth.Location = new System.Drawing.Point(21, 230);
@@ -161,17 +164,6 @@ namespace WeddingManagementApplication
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // labelWDRestaurant
-            // 
-            this.labelWDRestaurant.AutoSize = true;
-            this.labelWDRestaurant.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic);
-            this.labelWDRestaurant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.labelWDRestaurant.Location = new System.Drawing.Point(471, 9);
-            this.labelWDRestaurant.Name = "labelWDRestaurant";
-            this.labelWDRestaurant.Size = new System.Drawing.Size(314, 29);
-            this.labelWDRestaurant.TabIndex = 1;
-            this.labelWDRestaurant.Text = "Wedding Restaurant HALTT";
-            // 
             // img_close_service
             // 
             this.img_close_service.AutoSize = true;
@@ -185,28 +177,30 @@ namespace WeddingManagementApplication
             // rBtn_month
             // 
             this.rBtn_month.AutoSize = true;
+            this.rBtn_month.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_month.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_month.Location = new System.Drawing.Point(476, 178);
             this.rBtn_month.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rBtn_month.Name = "rBtn_month";
-            this.rBtn_month.Size = new System.Drawing.Size(89, 29);
+            this.rBtn_month.Size = new System.Drawing.Size(86, 29);
             this.rBtn_month.TabIndex = 93;
             this.rBtn_month.TabStop = true;
             this.rBtn_month.Text = "Month";
-            this.rBtn_month.UseVisualStyleBackColor = true;
+            this.rBtn_month.UseVisualStyleBackColor = false;
             // 
             // rBtn_year
             // 
             this.rBtn_year.AutoSize = true;
+            this.rBtn_year.BackColor = System.Drawing.Color.Transparent;
             this.rBtn_year.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rBtn_year.Location = new System.Drawing.Point(583, 178);
             this.rBtn_year.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rBtn_year.Name = "rBtn_year";
-            this.rBtn_year.Size = new System.Drawing.Size(69, 29);
+            this.rBtn_year.Size = new System.Drawing.Size(65, 29);
             this.rBtn_year.TabIndex = 92;
             this.rBtn_year.TabStop = true;
             this.rBtn_year.Text = "Year";
-            this.rBtn_year.UseVisualStyleBackColor = true;
+            this.rBtn_year.UseVisualStyleBackColor = false;
             // 
             // tb_seacrh_rpMonth
             // 
@@ -234,6 +228,7 @@ namespace WeddingManagementApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
             this.ClientSize = new System.Drawing.Size(852, 503);
             this.Controls.Add(this.rBtn_month);
             this.Controls.Add(this.rBtn_year);
@@ -246,7 +241,6 @@ namespace WeddingManagementApplication
             this.Controls.Add(this.labelYear);
             this.Controls.Add(this.labelMonth);
             this.Controls.Add(this.img_close_service);
-            this.Controls.Add(this.labelWDRestaurant);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataRPMonth);
             this.Controls.Add(this.labelRReport);
@@ -274,7 +268,6 @@ namespace WeddingManagementApplication
         private System.Windows.Forms.Label labelMonth;
         private System.Windows.Forms.DataGridView dataRPMonth;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label labelWDRestaurant;
         private System.Windows.Forms.Label img_close_service;
         private System.Windows.Forms.RadioButton rBtn_month;
         private System.Windows.Forms.RadioButton rBtn_year;

@@ -35,31 +35,31 @@
             this.btnWedding = new System.Windows.Forms.Button();
             this.panelNavigate = new System.Windows.Forms.Panel();
             this.btnLobby = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnReport = new System.Windows.Forms.Button();
             this.btnService = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxAnhChinh = new System.Windows.Forms.PictureBox();
             this.labelElegant = new System.Windows.Forms.Label();
             this.labelMerry = new System.Windows.Forms.Label();
             this.labelRomantic = new System.Windows.Forms.Label();
-            this.pictureBoxAnhNhoTrai = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxAnhNhoGiua = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.reportDropDown1 = new WeddingManagementApplication.ReportDropDown();
             this.lobbyDropDown1 = new WeddingManagementApplication.LobbyDropDown();
             this.searchDropDown1 = new WeddingManagementApplication.SearchDropDown();
+            this.pictureBoxAnhNhoTrai = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAnhNhoGiua = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAnhChinh = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhChinh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhNhoTrai)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhNhoGiua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhChinh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -156,20 +156,6 @@
             this.btnLobby.Click += new System.EventHandler(this.btnLobby_Click);
             this.btnLobby.MouseHover += new System.EventHandler(this.btnLobby_MouseHover);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(231, 206);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
-            // 
             // btnReport
             // 
             this.btnReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(78)))), ((int)(((byte)(77)))));
@@ -250,27 +236,6 @@
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             this.btnHome.MouseHover += new System.EventHandler(this.btnHome_MouseHover);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 204);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBoxAnhChinh
-            // 
-            this.pictureBoxAnhChinh.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhChinh.Image")));
-            this.pictureBoxAnhChinh.Location = new System.Drawing.Point(235, 0);
-            this.pictureBoxAnhChinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBoxAnhChinh.Name = "pictureBoxAnhChinh";
-            this.pictureBoxAnhChinh.Size = new System.Drawing.Size(1157, 376);
-            this.pictureBoxAnhChinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxAnhChinh.TabIndex = 11;
-            this.pictureBoxAnhChinh.TabStop = false;
-            this.pictureBoxAnhChinh.Click += new System.EventHandler(this.pictureBoxAnhChinh_Click);
-            // 
             // labelElegant
             // 
             this.labelElegant.AutoSize = true;
@@ -300,39 +265,6 @@
             this.labelRomantic.Size = new System.Drawing.Size(151, 33);
             this.labelRomantic.TabIndex = 15;
             this.labelRomantic.Text = "Romantic";
-            // 
-            // pictureBoxAnhNhoTrai
-            // 
-            this.pictureBoxAnhNhoTrai.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhNhoTrai.Image")));
-            this.pictureBoxAnhNhoTrai.Location = new System.Drawing.Point(284, 444);
-            this.pictureBoxAnhNhoTrai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBoxAnhNhoTrai.Name = "pictureBoxAnhNhoTrai";
-            this.pictureBoxAnhNhoTrai.Size = new System.Drawing.Size(316, 229);
-            this.pictureBoxAnhNhoTrai.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxAnhNhoTrai.TabIndex = 12;
-            this.pictureBoxAnhNhoTrai.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1049, 444);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(284, 229);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 14;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBoxAnhNhoGiua
-            // 
-            this.pictureBoxAnhNhoGiua.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhNhoGiua.Image")));
-            this.pictureBoxAnhNhoGiua.Location = new System.Drawing.Point(675, 444);
-            this.pictureBoxAnhNhoGiua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBoxAnhNhoGiua.Name = "pictureBoxAnhNhoGiua";
-            this.pictureBoxAnhNhoGiua.Size = new System.Drawing.Size(307, 229);
-            this.pictureBoxAnhNhoGiua.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxAnhNhoGiua.TabIndex = 13;
-            this.pictureBoxAnhNhoGiua.TabStop = false;
             // 
             // label6
             // 
@@ -377,6 +309,74 @@
             this.searchDropDown1.TabIndex = 0;
             this.searchDropDown1.Visible = false;
             // 
+            // pictureBoxAnhNhoTrai
+            // 
+            this.pictureBoxAnhNhoTrai.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhNhoTrai.Image")));
+            this.pictureBoxAnhNhoTrai.Location = new System.Drawing.Point(284, 444);
+            this.pictureBoxAnhNhoTrai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxAnhNhoTrai.Name = "pictureBoxAnhNhoTrai";
+            this.pictureBoxAnhNhoTrai.Size = new System.Drawing.Size(316, 229);
+            this.pictureBoxAnhNhoTrai.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxAnhNhoTrai.TabIndex = 12;
+            this.pictureBoxAnhNhoTrai.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(1049, 444);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(284, 229);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBoxAnhNhoGiua
+            // 
+            this.pictureBoxAnhNhoGiua.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhNhoGiua.Image")));
+            this.pictureBoxAnhNhoGiua.Location = new System.Drawing.Point(675, 444);
+            this.pictureBoxAnhNhoGiua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxAnhNhoGiua.Name = "pictureBoxAnhNhoGiua";
+            this.pictureBoxAnhNhoGiua.Size = new System.Drawing.Size(307, 229);
+            this.pictureBoxAnhNhoGiua.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxAnhNhoGiua.TabIndex = 13;
+            this.pictureBoxAnhNhoGiua.TabStop = false;
+            // 
+            // pictureBoxAnhChinh
+            // 
+            this.pictureBoxAnhChinh.Image = global::WeddingManagementApplication.Properties.Resources.Wedding_Restaurant;
+            this.pictureBoxAnhChinh.Location = new System.Drawing.Point(235, 0);
+            this.pictureBoxAnhChinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBoxAnhChinh.Name = "pictureBoxAnhChinh";
+            this.pictureBoxAnhChinh.Size = new System.Drawing.Size(1157, 376);
+            this.pictureBoxAnhChinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxAnhChinh.TabIndex = 11;
+            this.pictureBoxAnhChinh.TabStop = false;
+            this.pictureBoxAnhChinh.Click += new System.EventHandler(this.pictureBoxAnhChinh_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox2.Image = global::WeddingManagementApplication.Properties.Resources.Thiết_kế_chưa_có_tên__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(231, 206);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(229, 204);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -401,12 +401,12 @@
             this.Name = "FormHome";
             this.Text = "FormHome";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhChinh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhNhoTrai)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhNhoGiua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhChinh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
