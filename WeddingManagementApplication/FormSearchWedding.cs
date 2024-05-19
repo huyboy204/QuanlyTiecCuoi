@@ -17,7 +17,7 @@ namespace WeddingManagementApplication
 
         SqlConnection conn;
         SqlCommand cmd;
-        string str = @"Data Source=DESKTOP-FDBVHMB\SQLSERVEREXPRESS;Initial Catalog=WEDDINGMANAGEMENT;Integrated Security=True";
+        string str = @"Server=192.168.10.112;Database=ProductDB;User Id=sa;Password=20042001Huy@;MultipleActiveResultSets=true;";
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
         DataTable table1 = new DataTable();
@@ -28,7 +28,7 @@ namespace WeddingManagementApplication
             load_gridView_wedding();
             load_gridView_bill();
         }
-     
+
         void load_gridView_wedding()
         {
             conn = new SqlConnection(str);
@@ -47,7 +47,7 @@ namespace WeddingManagementApplication
             conn.Open();
             cmd = conn.CreateCommand();
             cmd.CommandText = "SELECT Representative, BroomName, BrideName, InvoiceDate, TablePriceTotal, ServicePriceTotal, Total, PaymentDate, MoneyLeft from WEDDING_INFOR W, BILL B where B.idWedding = W.idWedding ";
-           // cmd.CommandText = "SELECT * FROM BILL";
+            // cmd.CommandText = "SELECT * FROM BILL";
             adapter.SelectCommand = cmd;
             table1.Clear();
             adapter.Fill(table1);
@@ -60,7 +60,8 @@ namespace WeddingManagementApplication
         {
             if (rBtn_name.Checked)
             {
-                string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                // string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                string mainconn = ConfigurationManager.AppSettings.Get("conString");
                 SqlConnection sqlconn = new SqlConnection(mainconn);
                 string sqlquery = "select Representative, BroomName, BrideName, InvoiceDate, TablePriceTotal, ServicePriceTotal, Total, PaymentDate, MoneyLeft " +
                     "from WEDDING_INFOR W, BILL B where B.idWedding = W.idWedding and BroomName like '%" + tb_search_wd.Text + "%' OR BrideName like '%" + tb_search_wd.Text + "%' OR Representative = '" + tb_search_wd.Text + "'";
@@ -73,7 +74,8 @@ namespace WeddingManagementApplication
             }
             else if (rBtn_date.Checked)
             {
-                string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                // string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                string mainconn = ConfigurationManager.AppSettings.Get("conString");
                 SqlConnection sqlconn = new SqlConnection(mainconn);
                 string sqlquery = "select  Representative, BroomName, BrideName, InvoiceDate, TablePriceTotal, ServicePriceTotal, Total, PaymentDate, MoneyLeft" +
                     " from WEDDING_INFOR W, BILL B where B.idWedding = W.idWedding and WeddingDate like '%" + tb_search_wd.Text + "%'";
@@ -84,14 +86,15 @@ namespace WeddingManagementApplication
                 sqlDataAdapter.Fill(dt);
                 dataWedding.DataSource = dt;
             }
-           
+
         }
 
         private void tb_search_bill_textChange(object sender, EventArgs e)
         {
             if (rBtn_name.Checked)
             {
-                string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                // string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                string mainconn = ConfigurationManager.AppSettings.Get("conString");
                 SqlConnection sqlconn = new SqlConnection(mainconn);
                 string sqlquery = "select * from WEDDING_INFOR where BroomName like '%" + tb_search_wd.Text + "%' OR BrideName like '%" + tb_search_wd.Text + "%' OR Representative = '" + tb_search_wd.Text + "'";
                 sqlconn.Open();
@@ -103,7 +106,8 @@ namespace WeddingManagementApplication
             }
             else if (rBtn_date.Checked)
             {
-                string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                // string mainconn = ConfigurationManager.ConnectionStrings["MyCONN"].ConnectionString;
+                string mainconn = ConfigurationManager.AppSettings.Get("conString");
                 SqlConnection sqlconn = new SqlConnection(mainconn);
                 string sqlquery = "select * from WEDDING_INFOR where WeddingDate like '%" + tb_search_wd.Text + "%'";
                 sqlconn.Open();

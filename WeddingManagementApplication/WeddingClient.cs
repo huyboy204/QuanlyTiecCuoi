@@ -21,8 +21,6 @@ namespace WeddingManagementApplication
 
         internal static Random rand = new Random();
 
-    //    internal static string sqlConnectionString = ConfigurationManager.AppSettings.Get("An");
-
         internal static string sqlConnectionString = ConfigurationManager.AppSettings.Get("conString");
 
         public static string client_id;
