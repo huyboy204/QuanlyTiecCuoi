@@ -202,3 +202,206 @@ D:\3rd year\Nhap mon cnpm\Final\SE104.N26.CLC\WeddingManagementApplication\obj\D
 D:\3rd year\Nhap mon cnpm\Final\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.CopyComplete
 D:\3rd year\Nhap mon cnpm\Final\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.exe
 D:\3rd year\Nhap mon cnpm\Final\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.pdb
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.exe.config
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.exe
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.pdb
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.Licensing.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.dll
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.pdb
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.xml
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.AssemblyReference.cache
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.SuggestedBindingRedirects.cache
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Dishes.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormAccount.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormBill.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormDishes.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormHome.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLobby.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLobbyType.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLogin.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormServices.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormShift.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.gridView_dishes.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.gridView_service.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Home.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.LobbyDropDown.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.MenuItem.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.NhanTiec.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Properties.Resources.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.ReportDay.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.ReportDropDown.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.RevenueReport.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.SearchDropDown.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.searchWedding.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Shift.resources
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.GenerateResource.cache
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.CoreCompileInputs.cache
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.CopyComplete
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.exe
+D:\TH - CNPM\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.pdb
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.exe.config
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.exe
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\WeddingManagementApplication.pdb
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.Licensing.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.dll
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.pdb
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\bin\Debug\CryptSharp.xml
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.AssemblyReference.cache
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Dishes.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormAccount.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormBill.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormDishes.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormHome.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLobby.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLobbyType.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormLogin.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormServices.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.FormShift.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.gridView_dishes.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.gridView_service.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Home.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.LobbyDropDown.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.MenuItem.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.NhanTiec.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Properties.Resources.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.ReportDay.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.ReportDropDown.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.RevenueReport.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.SearchDropDown.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.searchWedding.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.Shift.resources
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.GenerateResource.cache
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.csproj.CoreCompileInputs.cache
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingM.A272BA98.Up2Date
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.exe
+C:\Users\huyld\Downloads\Compressed\SE104.N26.CLC\SE104.N26.CLC\WeddingManagementApplication\obj\Debug\WeddingManagementApplication.pdb

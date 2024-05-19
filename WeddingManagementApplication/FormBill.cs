@@ -156,7 +156,7 @@ namespace WeddingManagementApplication
 
         private void RBtn_yes_Click(object sender, EventArgs e)
         {
-            int x = Convert.ToInt32(tb_lobby_price);
+            int x = Convert.ToInt32(tb_lobby_price.Text);
             int y = Convert.ToInt32(penaltyTotal);
             int z = y - x;
             tb_moneyLeft.Text = z.ToString();
@@ -166,7 +166,7 @@ namespace WeddingManagementApplication
         {
             if (currentMoneyLeft > 0)
             {
-                int x = Convert.ToInt32(tb_lobby_price);
+                int x = Convert.ToInt32(tb_lobby_price.Text);
                 int y = Convert.ToInt32(baseTotal);
                 int z = y - x;
                 tb_moneyLeft.Text = z.ToString();
