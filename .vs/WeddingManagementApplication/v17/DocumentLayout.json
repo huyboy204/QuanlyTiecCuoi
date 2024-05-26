@@ -1,36 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|e:\\homework\\nhapmoncnpm\\se104.n26.clc\\weddingmanagementapplication\\formbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|solutionrelative:weddingmanagementapplication\\formbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormBill.cs [Design]",
-              "DocumentMoniker": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\FormBill.cs",
-              "RelativeDocumentMoniker": "WeddingManagementApplication\\FormBill.cs",
-              "ToolTip": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\FormBill.cs [Design]",
-              "RelativeToolTip": "WeddingManagementApplication\\FormBill.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T14:20:30.35Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

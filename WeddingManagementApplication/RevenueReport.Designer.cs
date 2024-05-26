@@ -228,7 +228,7 @@ namespace WeddingManagementApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(852, 503);
             this.Controls.Add(this.rBtn_month);
             this.Controls.Add(this.rBtn_year);

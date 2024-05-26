@@ -63,9 +63,9 @@ namespace WeddingManagementApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _5XICE__1_ {
+        internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("5XICE (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

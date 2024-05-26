@@ -555,7 +555,7 @@ namespace WeddingManagementApplication
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(204)))), ((int)(((byte)(176)))));
-            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(967, 441);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox6);

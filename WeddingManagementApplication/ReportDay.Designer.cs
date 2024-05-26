@@ -302,7 +302,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources._5XICE__1_;
+            this.BackgroundImage = global::WeddingManagementApplication.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(857, 577);
             this.Controls.Add(this.rBtn_day);
             this.Controls.Add(this.comboBoxMonth);
