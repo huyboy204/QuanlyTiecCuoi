@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|e:\\homework\\nhapmoncnpm\\se104.n26.clc\\weddingmanagementapplication\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|solutionrelative:weddingmanagementapplication\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|e:\\homework\\nhapmoncnpm\\se104.n26.clc\\weddingmanagementapplication\\formbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{035BB3CD-1F96-468E-85D8-41DA82099292}|WeddingManagementApplication\\WeddingManagementApplication.csproj|solutionrelative:weddingmanagementapplication\\formbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\App.config",
-              "RelativeDocumentMoniker": "WeddingManagementApplication\\App.config",
-              "ToolTip": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\App.config",
-              "RelativeToolTip": "WeddingManagementApplication\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-19T15:47:32.52Z",
-              "EditorCaption": ""
+              "Title": "FormBill.cs [Design]",
+              "DocumentMoniker": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\FormBill.cs",
+              "RelativeDocumentMoniker": "WeddingManagementApplication\\FormBill.cs",
+              "ToolTip": "E:\\Homework\\NhapmonCNPM\\SE104.N26.CLC\\WeddingManagementApplication\\FormBill.cs [Design]",
+              "RelativeToolTip": "WeddingManagementApplication\\FormBill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:20:30.35Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
