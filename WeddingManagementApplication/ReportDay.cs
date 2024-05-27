@@ -15,7 +15,7 @@ namespace WeddingManagementApplication
     {
 
         public static string currentReportId = "";
-        public static int currentReportDay = 0;
+        public static int currentReportDay;
         DataTable table1 = new DataTable();
         public ReportDay()
         {
@@ -68,7 +68,7 @@ namespace WeddingManagementApplication
             
             // select weddingID
             currentReportId = row["idReport"].ToString();
-            currentReportDay = (short)row["Day"];
+            currentReportDay = (byte)row["Day"];
         }
         private void buttonAdd_Click(object sender, EventArgs e)
         {
