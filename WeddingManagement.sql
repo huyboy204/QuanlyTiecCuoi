@@ -287,4 +287,3 @@ insert into PARAMETER values ('RulesFollowing', 1) -- 1 = áp dụng tiền ph�
 
 insert into ACCOUNT (Id, Username, Pw, Priority, Name, Identification) values (0, N'123', N'123', 0, N'Lê Đinh Quốc Huy', N'079201019151')
 insert into ACCOUNT (Id, Username, Pw, Priority, Name, Identification) values (1, N'200', N'200', 0, N'Nguyễn Đức Anh', N'079203011301')
-insert into ACCOUNT (Id, Username, Pw, Priority, Name, Identification) values (2, N'300', N'300', 0, N'Lê Đinh Quốc Huy', N'079201019151')
